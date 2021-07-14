@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7903F8FB-DC7E-418F-95E4-B79B064C600A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SJP_PDV.My.MyApplication</StartupObject>
+    <RootNamespace>SJP_PDV</RootNamespace>
+    <AssemblyName>SJP_PDV</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SJP_PDV.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SJP_PDV.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo-sistema-PDV.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>..\..\DFe_aplicativo\DFe_aplicativo\DFe_aplicativo\bin\Debug\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.254.2\SGLinx\WSLinear\MySQL.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.254.2\SGLinx\WSLinear\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.112.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.112.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.112.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Diagnostics.Tracing" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArquivoIni.vb" />
+    <Compile Include="CertificadoDigital.vb" />
+    <Compile Include="Class_Signature\Signature.vb" />
+    <Compile Include="Class_Signature\SignatureKeyInfo.vb" />
+    <Compile Include="Class_Signature\SignatureKeyInfoX509Data.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfo.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfoCanonicalizationMethod.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfoReference.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfoReferenceDigestMethod.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfoReferenceTransform.vb" />
+    <Compile Include="Class_Signature\SignatureSignedInfoSignatureMethod.vb" />
+    <Compile Include="Class_webservice\procInutNFe.vb" />
+    <Compile Include="Class_webservice\retConsCad.vb" />
+    <Compile Include="Class_webservice\retConsReciNFe.vb" />
+    <Compile Include="Class_webservice\retConsSitNFe.vb" />
+    <Compile Include="Class_webservice\retConsStatServ.vb" />
+    <Compile Include="Class_webservice\retDistDFeInt.vb" />
+    <Compile Include="Class_webservice\retEnvEvento.vb" />
+    <Compile Include="Class_webservice\retEnviNFe.vb" />
+    <Compile Include="Class_webservice\retInutNFe.vb" />
+    <Compile Include="clsDadosDest.vb" />
+    <Compile Include="clsDadosempresa.vb" />
+    <Compile Include="conexao.vb" />
+    <Compile Include="Crypto.vb" />
+    <Compile Include="danfeECF.vb" />
+    <Compile Include="DefaultPrinter.vb" />
+    <Compile Include="FrmConsultaProduto.designer.vb">
+      <DependentUpon>FrmConsultaProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmopcaopag.designer.vb">
+      <DependentUpon>frmopcaopag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmopcaopag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmopcaopagcli.designer.vb">
+      <DependentUpon>frmopcaopagcli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmopcaopagcli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmoperador.Designer.vb">
+      <DependentUpon>frmoperador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmoperador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmpdv.designer.vb">
+      <DependentUpon>frmpdv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmpdv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_inicial.Designer.vb">
+      <DependentUpon>frm_inicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_optcli.designer.vb">
+      <DependentUpon>frm_optcli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_optcli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcaogeracodnfe.vb" />
+    <Compile Include="funcoesNfe.vb" />
+    <Compile Include="GerarXML_nfce.vb" />
+    <Compile Include="ModuleINI.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Nfe_ImprimirDanfeRetratoNFCe.vb" />
+    <Compile Include="Obrigatorio.vb" />
+    <Compile Include="seft_host.vb" />
+    <Compile Include="ValidarXML.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmConsultaProduto.resx">
+      <DependentUpon>FrmConsultaProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmopcaopag.resx">
+      <DependentUpon>frmopcaopag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmopcaopagcli.resx">
+      <DependentUpon>frmopcaopagcli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmoperador.resx">
+      <DependentUpon>frmoperador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpdv.resx">
+      <DependentUpon>frmpdv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inicial.resx">
+      <DependentUpon>frm_inicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_optcli.resx">
+      <DependentUpon>frm_optcli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\pdv7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdv6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo-sistema-PDV.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe31200110962965000119650010000003871564281032" versao="4.00">
+      <ide>
+        <cUF>31</cUF>
+        <cNF>56428103</cNF>
+        <natOp>VENDA AO CONSUMIDOR</natOp>
+        <mod>65</mod>
+        <serie>1</serie>
+        <nNF>387</nNF>
+        <dhEmi>2020-01-16T09:10:25-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3137809</cMunFG>
+        <tpImp>4</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>2</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>11.0.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>10962965000119</CNPJ>
+        <xNome>SUPERMERCADO DOKA LTDA</xNome>
+        <xFant>doka</xFant>
+        <enderEmit>
+          <xLgr>Rua dr garcao stockler</xLgr>
+          <nro>139</nro>
+          <xBairro>centro</xBairro>
+          <cMun>3137809</cMun>
+          <xMun>Lambari</xMun>
+          <UF>MG</UF>
+          <CEP>37480000</CEP>
+        </enderEmit>
+        <IE>0012832110002</IE>
+        <CRT>3</CRT>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>10</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+          <NCM>19053100</NCM>
+          <CEST>1705300</CEST>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>6.000</qCom>
+          <vUnCom>2.39</vUnCom>
+          <vProd>14.34</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>6.000</qTrib>
+          <vUnTrib>2.39</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.32</vTotTrib>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+            </ICMS60>
+          </ICMS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0</vBCST>
+          <vST>0</vST>
+          <vFCPST>0</vFCPST>
+          <vFCPSTRet>0</vFCPSTRet>
+          <vProd>14.34</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>14.34</vNF>
+          <vTotTrib>2.32</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>01</tPag>
+          <vPag>15.00</vPag>
+        </detPag>
+        <vTroco>0.66</vTroco>
+      </pag>
+      <infAdic>
+        <infCpl><![CDATA[16/01/20 09:10 - RV: 000000194 - PDV: 001 - OPR: PEDRO SANTOS |Valor Recebimento: R$15.00 |Valor do Troco: R$0.66|Valor Total Aprox. dos Tributos:R$ 2.32(16.20%)|Federais: R$ 0.60 Estaduais: R$ 1.72 Municipais: R$ 0.00|Fonte: IBPT]]></infCpl>
+      </infAdic>
+    </infNFe>
+    <infNFeSupl>
+      <qrCode><![CDATA[https://nfce.fazenda.mg.gov.br/portalnfce/sistema/qrcode.xhtml?p=31200110962965000119650010000003871564281032|2|2|1|CAC9D4228359C483B4AA900496D7450863806DCC]]></qrCode>
+      <urlChave>http://hnfce.fazenda.mg.gov.br/portalnfce</urlChave>
+    </infNFeSupl>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe31200110962965000119650010000003871564281032">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>4UYdJivyE1jsHUA93TRUF2UgNmg=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>OR04I37WfS7wk7x8FopK5hjISOSZp78kugeKUh1417fQ32pGvr2G+LQQv1RTl2jedGjV05WU0pfmhbdo++wXhD0EFe4jf8xfC1fYtnG/7V3DdMmAdT0p7GFerblYF/+irSRV1VCCLEdSpZAFJ4w2QDFRRtu7SoVhZCeEtO+4bQ5wPNFI1hABOnK4r45rIPPxyXtyzNh8gHhNjHvbTAfdMnhvRu1oZxXk7eec9TIoovxfRi81zm84RLvquyjNxF3D/mYDQxoD7rMlMWI94SMe1ERM4tiAaiknILE7vjpnkyiXrzipJb9xPbqt/qV6FQkhXwjJMqtleJrra01UZyqCJw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infProt Id="ID131200019951265">
+      <tpAmb>2</tpAmb>
+      <verAplic>J-1.4.39</verAplic>
+      <chNFe>31200110962965000119650010000003871564281032</chNFe>
+      <dhRecbto>2020-01-16T09:10:29-03:00</dhRecbto>
+      <nProt>131200019951265</nProt>
+      <digVal>4UYdJivyE1jsHUA93TRUF2UgNmg=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

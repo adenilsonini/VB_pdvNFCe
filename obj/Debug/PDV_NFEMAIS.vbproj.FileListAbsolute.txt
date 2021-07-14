@@ -1,0 +1,53 @@
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\PDV_NFEMAIS.exe.config
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.vbprojResolveAssemblyReference.cache
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frmpdv.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.Resources.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.vbproj.GenerateResource.Cache
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\PDV_NFEMAIS.exe
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\PDV_NFEMAIS.pdb
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\PDV_NFEMAIS.xml
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\MySQL.Data.dll
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.FrmConsultaProduto.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frmopcaopag.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frmopcaopagcli.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frm_optcli.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.exe
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.xml
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.pdb
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frm_inicial.resources
+C:\Users\adeni\Documents\Visual Studio 2013\Projects\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.frmoperador.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\MySQL.Data.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.vbprojResolveAssemblyReference.cache
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\PDV_NFEMAIS.vbproj.GenerateResource.Cache
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\EntityFramework.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\System.Data.SQLite.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\EntityFramework.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\System.Data.SQLite.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\SJP_PDV.exe.config
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\SJP_PDV.exe
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\SJP_PDV.pdb
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\SJP_PDV.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.FrmConsultaProduto.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frmopcaopag.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frmopcaopagcli.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frmoperador.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frmpdv.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frm_inicial.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.frm_optcli.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.Resources.resources
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.exe
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.xml
+C:\Users\adeni\OneDrive\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.pdb
+D:\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\bin\Debug\SJP_PDV.exe.config
+D:\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.exe
+D:\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.xml
+D:\projetos_do_vb.net\PDV_NFEMAIS\PDV_NFEMAIS\obj\Debug\SJP_PDV.pdb
